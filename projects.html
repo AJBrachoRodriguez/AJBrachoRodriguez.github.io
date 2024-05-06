@@ -1,0 +1,278 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEAD -->
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>          
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>         
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<!-- STYLE -->
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+        }
+  .navbar {
+    background-color: #2814ad;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+        }
+  .nav-link {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+        }
+  .nav-link:hover {
+    color: #f8f9fa;
+        }
+  .section {
+    min-height: 100vh;
+    padding: 20px;
+        }
+  .contact {
+  background-color: #050505;
+  color: #ffffff;
+  padding: 50px 0;
+        }
+  .contact-info p {
+  margin-bottom: 10px;
+        }
+
+  .social-icons a:hover {
+  text-decoration: none;
+        }
+
+  .social-icons img {
+  width: 30px;
+  height: 30px;
+        }
+
+@media (max-width: 768px) {
+  .contact-info p {
+    margin-bottom: 5px;
+                  }
+        }
+
+    .projects {
+        padding: 50px 0;
+            }
+    .card {
+        margin-bottom: 20px;
+        }
+    .card-body {
+        text-align: left;
+                }
+    .about-section {
+        text-align: center;
+        padding: 80px 0;
+           }
+    .about-heading{
+        font-size: 36px;
+        margin-bottom: 30px;
+            }
+    .about-img{
+        width: 200px ;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        overflow: hidden;
+        margin:0 auto 20px;
+              }
+    .about-img img {
+        width: 100% ;
+        height: 100%;
+        object-fit: cover;
+              }
+    .profile-picture {
+        display: inline-block;
+        margin-top: 20px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid rgb(17, 16, 16); /* Change the color as needed */
+        }
+    .profile-picture img {
+        display: block;
+        width: 150px; /* Set the size of the image */
+        height: auto;
+        }
+    .about-text {
+        max-width: 600px;
+        margin:0 auto;
+            }
+    .bio {
+        max-width: 600px; /* Set the maximum width for the text */
+        margin: 20px auto;
+        }
+
+</style>
+</head>
+
+<!-- BODY -->
+<body>
+    <!-- SECTION: navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">My Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="myresume.html">My resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html" >Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobbies.html" >Hobbies</a>
+                </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+
+ <!-- SECTION: projects -->
+ <section id="project" class="projects">
+  <h1 class="text-center">Projects</h1>
+  <div id="project" class="row">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/projects/medical_insurance.jpg" class="card-img-top" alt="Project 1" style="width:558px ; height: 500px;">
+        <div class="card-body">
+          <h5 class="card-title">Medical insurance cost prediction</h5>
+          <p class="card-text">In this project, the cost of the medical insurance was predicted using the “smoker” variable. 
+            Linear regression was used as machine learning algorithm. R2 coefficient was used as the evaluation metric. An adjustment 
+            of 60% was obtained. There were several variables involved. Besides, the data comes from United States.</p>
+          <a href="https://ajbrachorodriguez.github.io/Insurance-Prediction/" class="btn btn-primary">README</a>
+          <a href="https://github.com/AJBrachoRodriguez/Insurance-Prediction.git" class="btn btn-secondary">GitHub repository</a>
+          <a href="#" class="btn btn-primary">Results</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/projects/spaceship2.jpeg" class="card-img-top" alt="Project 2" style="width:558px ; height: 500px;">
+        <div class="card-body">
+          <h5 class="card-title">Spaceship titanic</h5>
+          <p class="card-text">The main purpose of this project is to predict if the passengers of an intergalatic trip will be 
+            transported to another dimension based on several variables. It was achieved using a model of machine learninig 
+            (logistic regression) for the case of the Kaggle competition named "Spaceship Titanic".</p>
+          <a href="https://ajbrachorodriguez.github.io/Spaceship-Titanic/" class="btn btn-primary">README</a>
+          <a href="https://github.com/AJBrachoRodriguez/Spaceship-Titanic.git" class="btn btn-secondary">GitHub repository</a>
+          <a href="#" class="btn btn-primary">Results</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/projects/api.png" class="card-img-top" alt="Project 3" style="width:558px ; height: 500px;">
+        <div class="card-body">
+          <h5 class="card-title">Postgres - API</h5>
+          <p class="card-text">In this project, an API was built in order to construct a database with registers about 
+            the likes about movies of the user. The latter can insert his/her favorite author, a brief description and the 
+            release date. Besides, he / she can update the database in any part of it and finally, he/she would be able to 
+            access it to make comparison with another register.</p>
+          <a href="https://ajbrachorodriguez.github.io/Postgres-API/" class="btn btn-primary">README</a>
+          <a href="https://github.com/AJBrachoRodriguez/Postgres-API.git" class="btn btn-secondary">GitHub repository</a>
+          <a href="#" class="btn btn-primary">Results</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/projects/spaceship.png" class="card-img-top" alt="Project 3" style="width:558px ; height: 500px;">
+        <div class="card-body">
+          <h5 class="card-title">Spaceship titanic - API</h5>
+          <p class="card-text">In this project, an API was built in order to make predictions using a model of machine 
+            learninig (logistic regression) for the case of the Kaggle competition named "Spaceship Titanic". The api 
+            was built using FastAPI.</p>
+          <a href="https://ajbrachorodriguez.github.io/Spaceship-Titanic-API-/" class="btn btn-primary">README</a>
+          <a href="https://github.com/AJBrachoRodriguez/Spaceship-Titanic-API-.git" class="btn btn-secondary">GitHub repository</a>
+          <a href="#" class="btn btn-primary">Results</a>
+        </div>
+      </div>
+    </div>
+
+    <section id="bottom-projects" class="bottom-projects" >
+      <div class="bottom-id">
+          <h4>If you are interested in more projects, click <a href="https://medium.com/@alexangelb">here</a></h4>
+      </div>
+    </section>
+
+    </div>
+  </section>
+
+    <!-- SECTION: contact me -->
+    <section id="contact" class="contact" >
+        <h2 class="text-center">Contact Me</h2>
+        <div id="contact" class="contact-info text-center">
+          <p><i class="fas fa-envelope"></i> alexangelb@gmail.com</p>
+          <p><i class="fas fa-phone"></i> (+56)-990618033</p>
+        </div>
+        <div class="social-icons text-center">
+          <a href="https://www.linkedin.com/in/alexangel-bracho-m-sc-in-physics-510675239/" data-toggle="tooltip" title="LinkedIn"><img src="/Users/alexangelbracho/Desktop/Personal Website/icons/linkedIn.jpg" alt="LinkedIn" style="width:70px ; height: 40px;"></a>
+          <a href="https://github.com/AJBrachoRodriguez?tab=overview&from=2024-04-01&to=2024-04-30" data-toggle="tooltip" title="GitHub"><img src="/Users/alexangelbracho/Desktop/Personal Website/icons/github.jpg" alt="GitHub" style="width:70px ; height: 40px;"></a>
+          <a href="https://medium.com/@alexangelb" data-toggle="tooltip" title="Medium"><img src="/Users/alexangelbracho/Desktop/Personal Website/icons/medium.jpg" alt="Medium" style="width:70px ; height: 40px;"></a>
+        </div>
+        <footer>
+          <p>Copyright © 2024 AJBracho. All Rights Reserved.</p>
+          <p>Empowered by GitHub</p>
+        </footer>
+      </section>
+
+
+    <!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>          
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>         
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling using jQuery
+        $(document).ready(function(){
+            $(".nav-link").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
