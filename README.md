@@ -1,46 +1,43 @@
-# **Personal Website**  📘
-![spaceship titanic](images/projects/proof.png)
+# **Personal  Website**  📘
+![spaceship titanic](images/projects/personalwebsite2.webp)
 
 ### **Description**
 
-The main purpose of this project is to build a 
+This website was built to present all the projects done by the author,besides to show the skills and interests. The main page has an upper navigation bar which allows to go faster to the
+main sections such as My Resume, Projects, Skills, Contact Me, Contributions and within others. This site was built using html code.
+
 
 ### **Table of contents**  🔡
 
-- [Contents](#contents)
-- [How to Install and Run the Project](#how-to-install-and-run-the-project)
+- [Content of the repository](#contents)
 - [How to use the project](#how-to-use-the-project)
 - [Contributions](#contributions)
-- [Credits](#credits)
 - [Licence](#licence)
 
 ### **Content of the repository**  🔖
 
-1. main.py
-2. notebook.ipynb
-3. requirements.txt
-4. .gitignore
-5. README.md
-6. .gitignore
-
-### **How to Install and Run the Project** 🏃‍♂️
-
-The project must be run on Docker, therefore, it must be deployed on that platform executing the Dockerfile included in the repository. 
+1. index.html
+2. projects/
+3. skills/
+4. contactme/
+5. hobbies/
+6. myresume/
+7. contributions/
+8. images/
+9. icons/
+10. README.md
+11. .gitignore
 
 ### **How to use the project**  📂
 
-You can download the dataset in the following link:
+You can access the website in the following link:
 
-https://www.kaggle.com/competitions/spaceship-titanic/data?select=train.csv
+https://ajbrachorodriguez.github.io/
 
 ### **Contributions**  ✍️
 
-I would like to you to encourage to contribute in any form to the project through this public repository. 
-
-### **Credits**  🎈
-
-I would like to thank all the members of my team. Besides, I want to thank the support given by the team of Datapath. 
+I would like to you to encourage to contribute in any form to the project through this public repository in the folder "contributions" forking it.
 
 ### **Licence**  👮
 
-*GPL* Licence
+*MIT* Licence
